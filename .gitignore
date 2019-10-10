@@ -1,0 +1,48 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, build with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+localplannersync
+build/
+coverage.xml
+coverage.json
+test-report-go.raw
+test-report.xml
+
+# Glide tool
+glide
+glide.lock
+glide.exe
+
+# IDE
+*.a
+*.sublime-project
+*.sublime-workspace
+dist/
+.DS_Store
+.idea
+vendor
+localPlannerSync
+
+# l2 Component Tests
+.cache
+__pycache__
+*.pyc
+assets
+*.html
+tests/*.json
+tests/component/.venv
+tests/component/testresults
+tests/perf/testresults
+tests/robohydra/node_modules
+tests/robohydra/package-lock.json
+
